@@ -1,0 +1,16 @@
+// vite.config.ts
+import { js13kViteConfig } from "file:///D:/code/a-deadly-bet-main/a-deadly-bet-main/node_modules/js13k-vite-plugins/dist/esm/index.mjs";
+import { defineConfig } from "file:///D:/code/a-deadly-bet-main/a-deadly-bet-main/node_modules/vite/dist/node/index.js";
+var vite_config_default = defineConfig(js13kViteConfig({
+  terserOptions: {
+    mangle: {
+      properties: {
+        keep_quoted: true
+      }
+    }
+  }
+}));
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcudHMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCJEOlxcXFxjb2RlXFxcXGEtZGVhZGx5LWJldC1tYWluXFxcXGEtZGVhZGx5LWJldC1tYWluXCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ZpbGVuYW1lID0gXCJEOlxcXFxjb2RlXFxcXGEtZGVhZGx5LWJldC1tYWluXFxcXGEtZGVhZGx5LWJldC1tYWluXFxcXHZpdGUuY29uZmlnLnRzXCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ltcG9ydF9tZXRhX3VybCA9IFwiZmlsZTovLy9EOi9jb2RlL2EtZGVhZGx5LWJldC1tYWluL2EtZGVhZGx5LWJldC1tYWluL3ZpdGUuY29uZmlnLnRzXCI7aW1wb3J0IHsganMxM2tWaXRlQ29uZmlnIH0gZnJvbSAnanMxM2stdml0ZS1wbHVnaW5zJztcbmltcG9ydCB7IGRlZmluZUNvbmZpZyB9IGZyb20gJ3ZpdGUnO1xuXG5leHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoanMxM2tWaXRlQ29uZmlnKHtcbiAgdGVyc2VyT3B0aW9uczoge1xuICAgIG1hbmdsZToge1xuICAgICAgcHJvcGVydGllczoge1xuICAgICAgICBrZWVwX3F1b3RlZDogdHJ1ZSxcbiAgICAgIH0sXG4gICAgfVxuICB9XG59KSk7XG4iXSwKICAibWFwcGluZ3MiOiAiO0FBQTJULFNBQVMsdUJBQXVCO0FBQzNWLFNBQVMsb0JBQW9CO0FBRTdCLElBQU8sc0JBQVEsYUFBYSxnQkFBZ0I7QUFBQSxFQUMxQyxlQUFlO0FBQUEsSUFDYixRQUFRO0FBQUEsTUFDTixZQUFZO0FBQUEsUUFDVixhQUFhO0FBQUEsTUFDZjtBQUFBLElBQ0Y7QUFBQSxFQUNGO0FBQ0YsQ0FBQyxDQUFDOyIsCiAgIm5hbWVzIjogW10KfQo=
